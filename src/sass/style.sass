@@ -1,0 +1,366 @@
+.container
+	width: 1200px
+	margin: 0 auto
+
+button
+	margin-left: 25px
+	width: 204px
+	height: 62px
+	box-shadow: 0px 4px 0px 0px #cfb559
+	border-radius: 6px
+	background-image: linear-gradient(to bottom, #f8e296, #fdd854)			
+	border: none
+	font-size: 16px
+	font-weight: 500
+	color: #111111	
+
+header
+	position: relative
+	margin-top: 23px
+	.container
+		.div
+			display: flex
+			justify-content: space-between
+			width: 100%
+		.logo, .call, .address
+			display: flex
+			margin-bottom: 20px
+		.logo
+			width: 380px
+			&_img
+				width: 164px
+				height: 50px
+				cursor: pointer
+			&_text
+				font-size: 13px
+				line-height: 19px
+				font-weight: 400
+				color: #686b75	
+				margin-left: 15px	
+		.address
+			width: 170px
+			img
+				width: 22px
+				height: 28px	
+			&_text
+				margin-left: 12px
+				font-size: 15px
+				line-height: 20px
+				font-weight: 400
+				color: #171819		
+		.call
+			width: 445px
+			img
+				width: 26px
+				height: 26px	
+			.number
+				margin-left: 5px
+				font-size: 20px
+				line-height: 1.2
+				font-weight: 700
+				color: #171819	
+				&:hover
+					color: #408cff
+			&_text
+				font-size: 14px
+				line-height: 20px
+				font-weight: 400
+				color: #686b75		
+			button
+				margin-left: 25px
+				width: 204px
+				height: 62px
+				box-shadow: 0px 4px 0px 0px #cfb559
+				border-radius: 6px
+				background-image: linear-gradient(to bottom, #f8e296, #fdd854)			
+				border: none
+				font-size: 16px
+				font-weight: 500
+				color: #111111
+	.first
+		height: 1010px
+		position: relative
+		padding: 90px 0 190px 0
+		background: url(../img/bg_1.jpg) center (center/cover) no-repeat	
+		.question
+			display: flex
+			justify-content: center
+			align-items: center
+			width: 245px
+			height: 48px
+			border: 1px solid #41bc05
+			box-shadow: 0px 0px 45px 0px rgba(235,190,71,0.1)
+			border-radius: 6px
+			font-size: 20px
+			font-weight: 400
+			color: #686b75
+			margin-bottom: 27px
+		.title
+			width: 50%
+			font-size: 48px
+			line-height: 58px
+			font-weight: 500
+			color: #171819
+			margin-bottom: 60px
+			.usual
+				font-weight: 300
+			.sale
+				color: #41bc05
+		.description
+			width: 50%
+			display: flex
+			&_text
+				margin-left: 10px
+				font-size: 18px
+				line-height: 34px
+				font-weight: 300
+				color: #171819
+				margin-bottom: 76px
+				span
+					font-weight: 500
+				.span
+					width: 220px
+					height: 39px
+					background-color: #ffe192
+					box-shadow: 0px 0px 45px 0px rgba(235,190,71,0.1)
+					border-radius: 6px
+		.button_wrapper
+			position: relative	
+			width: 590px		
+		.test
+			border: none
+			width: 422px
+			height: 108px
+			a
+				font-size: 16px
+				line-height: 26px
+				font-weight: 700
+				text-transform: uppercase
+				letter-spacing: 0.05em
+				color: #111111
+				&:hover
+					text-decoration: none
+			span
+				font-size: 13px
+				font-weight: 400
+				color: #766630
+		.notebook
+			position: absolute
+			right: 0%	
+			top: -17%
+
+
+.info
+	position: absolute
+	height: 166px
+	width: 1170px
+	background-color: #ffffff
+	box-shadow: 0px 0px 60px 0px rgba(71,90,132,0.11)
+	border-radius: 6px
+	transform: translateX(-50%)
+	left: 50%
+	top: 93%
+	ul
+		display: grid;
+		grid-template-columns: repeat(4, 1fr)
+		grid-gap: 10px
+		margin-top: 25px
+		list-style-type: none
+	&_item
+		margin: 0 auto
+		border-right: 1px solid #dcdeee
+		padding-right: 100px
+		img
+			display: block
+			margin: 0 auto
+			margin-bottom: 13px
+		.descr
+			text-align: center
+			span
+				font-weight: 500
+	.info_item:nth-child(4)
+		border-right: 0px
+
+
+.quiz
+	height: 1250px
+	background: url(../img/bg_2.jpg) center (center/cover) no-repeat
+	padding-top: 154px
+	.title
+		text-align: center
+		font-size: 40px
+		line-height: 50px
+		font-weight: 300
+		color: #171819
+		span
+			font-weight: 500
+	.main
+		display: flex
+		width: 100%
+		height: 876px
+		background-color: #ffffff
+		box-shadow: 0px 0px 79px 0px rgba(109,114,153,0.1)
+		border-radius: 14px
+		margin-top: 50px
+	.main_quiz
+		background: url(../icons/process.png) center (center/cover) no-repeat
+		background-size: 100%
+		width: 810px
+		height: 852px
+	.quiz_text
+		width: 355px
+		text-align: center
+		padding: 0 40px 0 40px
+		font-size: 15px
+		line-height: 25px
+		font-weight: 400
+		color: #686b75
+	hr
+		width: 250px
+		background-color: #dadfe3
+		margin-top: 50px
+		border-top: none
+	.profile
+		margin: 0 auto
+		display: block
+		margin-top: 30px
+		margin-bottom: 34px
+	.end
+		padding: 25px 34px 100px 34px
+		.main_text
+			font-size: 18px
+			font-weight: 500
+			color: #111111
+			text-align: center
+		.cost, .laptop, .instr 
+			display: flex
+			width: 280px
+			height: 98px
+			background-color: #ffffff
+			box-shadow: 0px 0px 60px 0px rgba(65,72,103,0.11)
+			border-radius: 6px
+			font-size: 14.5px
+			line-height: 22px
+			font-weight: 300
+			color: #171819
+			margin-top: 20px
+			justify-content: space-between
+		.cost_text, .laptop_text, .instr_text 
+			line-height: 22px
+			font-weight: 300
+			color: #171819
+			margin: 20px 0 0 20px
+			span
+				font-weight: 500
+
+
+.footer	
+	margin-top: 0px
+	height: 130px
+	border-top: 1px solid #ececec
+	padding-top: 40px
+	.container
+		display: flex
+		justify-content: space-between
+		.logo
+			width: 164px
+			height: 50px
+		.footer_text
+			text-align: center
+		.footer_number
+			img
+				width: 26px
+				height: 26px	
+			.number
+				margin-left: 5px
+				font-size: 20px
+				line-height: 1.2
+				font-weight: 700
+				color: #171819	
+				&:hover
+					color: #408cff
+			.call_text
+				font-size: 14px
+				line-height: 20px
+				font-weight: 400
+				color: #686b75
+
+.overlay
+	background-color: rgba(0, 0, 0, .6)
+	position: fixed
+	width: 100%
+	height: 100%
+	top: 0
+	display: none
+	.form
+		position: relative
+		width: 450px
+		min-height: 633px
+		background-color: #ffffff
+		border-radius: 6px
+		margin: 70px auto
+		padding: 39px 20px
+		.form_close
+			position: absolute
+			top: -6%
+			left: 50%
+			transform: translateX(-50%)
+			cursor: pointer
+		.title
+			font-size: 26px
+			line-height: 34px
+			font-weight: 400
+			color: #171819
+			text-align: center
+		.answer
+			font-size: 18px
+			line-height: 30px
+			font-weight: 400
+			color: #686b75
+			text-align: center
+			margin: 20px 0 23px 0
+		.messengers
+			display: flex	
+			justify-content: space-between
+			div
+				width: 130px
+				height: 48px
+				border: 1px solid #c7d3e2
+				border-radius: 6px	
+				text-align: center
+				padding-top: 9px
+				cursor: pointer
+			.messenger_active
+				border-color: #00cc45 
+		.descr
+			font-size: 18px
+			line-height: 26px
+			font-weight: 400
+			color: #686b75
+			margin: 24px 0 20px 0
+			text-align: center
+		input
+			display: block
+			width: 320px
+			height: 76px
+			background-color: #f0f3f5
+			border-radius: 10px
+			border: none
+			margin: 0 auto
+			margin-bottom: 15px
+			padding-left: 88px
+			font-size: 17px
+			font-weight: 400
+		button
+			display: block
+			margin: 0 auto
+			width: 319px
+			height: 82px
+			font-size: 16px
+			line-height: 26px
+			font-weight: 700
+			text-transform: uppercase
+			letter-spacing: 0.05em
+			color: #111111
+	
+@import _media.sass
