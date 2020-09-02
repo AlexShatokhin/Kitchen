@@ -38,6 +38,8 @@
             grid-gap: 0px
             .info_item
                 padding-right: 20px
+    .tree_1, .tree_2
+        display: none
     .quiz
         .title
             font-size: 30px
@@ -97,7 +99,7 @@
             .button_wrapper
                 width: 100%
             .test
-                width: 290px
+                width: 300px
                 height: 90px
                 a
                     font-size: 13px
@@ -223,15 +225,18 @@
                 width: 100%
                 text-align: center
                 margin-top: 14px
+                margin-bottom: 20px
             .description
                 width: 100%
             .description_text
                 width: 100%
                 text-align: center
+                font-size: 16px
             button
                 display: block
                 margin: 0 auto
-                margin-top: 400px
+                margin-top: 560px
+                position: static
         .info
             top: 100%
             .info_item
@@ -270,6 +275,24 @@
             button
                 width: 270px
                 height: 70px
+
+@media ( max-width:  556px)
+    header
+        .first
+            button
+                margin-top: 490px
+
+@media ( max-width:  410px)
+    header
+        .first
+            button
+                margin-top: 420px
+
+@media ( max-width:  335px)
+    header
+        .first
+            button
+                margin-top: 380px
 
 @media ( max-width:  320px)
     header
