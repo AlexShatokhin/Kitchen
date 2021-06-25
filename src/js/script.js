@@ -48,4 +48,13 @@ for (let anchor of anchors) {
 		block: 'start'
 	  })
 	})
-  }
+  };
+
+$(document).ready(function(){
+    $('.main_quiz').slick({
+        dots: false,
+        speed:1500,
+        prevArrow:'<a class="slick-prev">Вернуться назад</a>',
+        nextArrow:'<button type="button" class="slick-next">Следующий вопрос</button>',
+    });
+  });

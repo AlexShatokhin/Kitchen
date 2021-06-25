@@ -1,3 +1,10 @@
+*
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+	text-decoration: none
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+	
 .container
 	width: 1200px
 	margin: 0 auto
@@ -13,6 +20,7 @@ button
 	font-size: 16px
 	font-weight: 500
 	color: #111111	
+	cursor: pointer
 
 header
 	position: relative
@@ -81,7 +89,7 @@ header
 		position: absolute
 		top: -30px
 		right: 0
-		width: 300px
+		width: 250px
 		height: 250px
 	.tree_2
 		position: absolute
@@ -195,7 +203,7 @@ header
 
 
 .quiz
-	height: 1250px
+	min-height: 750px
 	background: url(../img/bg_2.jpg) center (center/cover) no-repeat
 	padding-top: 154px
 	.title
@@ -207,7 +215,7 @@ header
 		span
 			font-weight: 500
 	.main
-		display: flex
+		display: none
 		width: 100%
 		height: 876px
 		background-color: #ffffff
@@ -215,12 +223,23 @@ header
 		border-radius: 14px
 		margin-top: 50px
 	.main_quiz
-		background: url(../icons/process.png) center (center/cover) no-repeat
 		background-size: 100%
 		width: 810px
 		height: 852px
+		.step_title
+			font-size: 13px
+			font-weight: 500
+			text-transform: uppercase
+			letter-spacing: 0.05em
+			color: #8c94a2
+			width: 140px
+			height: 50px
+			border: 1px solid #fddf8e
+			border-radius: 6px
+			text-align: center
+			padding-top: 15px
+			margin: 0 auto
 	.quiz_text
-		width: 355px
 		text-align: center
 		padding: 0 40px 0 40px
 		font-size: 15px
@@ -244,6 +263,10 @@ header
 			font-weight: 500
 			color: #111111
 			text-align: center
+		.wrapper
+			display: flex
+			justify-content: space-around
+			flex-wrap: wrap
 		.cost, .laptop, .instr 
 			display: flex
 			width: 280px
@@ -303,6 +326,7 @@ header
 	width: 100%
 	height: 100%
 	top: 0
+	left: 0
 	display: none
 	.form
 		position: relative
@@ -335,15 +359,17 @@ header
 			display: flex	
 			justify-content: space-between
 			div
+				display: flex
 				width: 130px
 				height: 48px
 				border: 1px solid #c7d3e2
 				border-radius: 6px	
 				text-align: center
-				padding-top: 9px
 				cursor: pointer
+				align-items: center
+    			justify-content: space-around
 			.messenger_active
-				border-color: #00cc45 
+				border-color: #00cc45
 		.descr
 			font-size: 18px
 			line-height: 26px
